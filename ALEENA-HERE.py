@@ -18,7 +18,7 @@ import os
 
 try:
 
-	import requestsexcept
+	import requests.except
 
 	os.system("pip install requests")
 
