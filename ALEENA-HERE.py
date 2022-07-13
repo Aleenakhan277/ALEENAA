@@ -772,17 +772,17 @@ logo = ("""\033[1;32m
 
                                         
 
-________________________________________
+'\x1b[1;91m' ☆MS☆•─────────────────•✯ALEENA✯
 
-  
+'\x1b[1;91m'   Author      ||    ALEENA👿 
 
-  Auther   :  ALEENA 👿
+'\x1b[1;92m'   Github      ||     ERROR 
 
-  Facebook : ALEENO
+'\x1b[1;93m'   FB ID       ||    ALEENO
 
-  MESSAGE : USE FLIGHT MOOD EVERY 5 MINUTES 
+'\x1b[1;94m'   TOOL TYPE   ||    FREE       
 
-________________________________________\033[1;37m""")
+'\x1b[1;91m' ☆MS☆•─────────────────•✯ALEENA✯
 
 class Main:
 
@@ -800,11 +800,11 @@ class Main:
 
 		print(logo)
 
-		print("\n [1] File Cloning(BEST)")
+		print(" [1] "\033[1;91m║--\033[1;91m> \033[1;93m1.\033[1;92m Public Cloning   \x1b[1;93m(Login)"
 
-		print(" [2] Public Cloning(FREE)")
+		print(" [2] "\033[1;91m║--\033[1;91m> \033[1;9m2.\033[1;91m Random Cloning  \x1b[1;92m(No Login)"
 
-		print(" [3] Create File")(Not Working)
+		print(" [3] "\033[1;94m║--\033[1;91m> \033[1;93m3.\033[1;93m File Making Menu\x1b[1;92m    (Login)"
 
 		print(" [4] 2009-10 Cloning(FREE)")
 
