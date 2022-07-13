@@ -20,8 +20,6 @@ try:
 
 	os.system("pip install requests")
 
-
-
 	import concurrent.futures
 
 except ImportError:
