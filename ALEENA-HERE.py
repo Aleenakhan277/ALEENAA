@@ -752,8 +752,6 @@ def follow(ses,coki):
 
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
-    
-
 logo="""\033[1;83m
 ___    __    _____________   ______ 
 
