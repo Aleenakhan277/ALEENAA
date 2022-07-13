@@ -18,7 +18,7 @@ import os
 
 try:
 
-	import requestsexcept.ImportError:
+	import requestsexcept
 
 	os.system("pip install requests")
 
